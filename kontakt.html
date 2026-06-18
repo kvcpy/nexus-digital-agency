@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt — JustWin | Umów bezpłatne demo</title>
+  <meta name="description" content="Skontaktuj się z JustWin i umów bezpłatne demo platformy do zarządzania klubem sportowym. ul. Wierzbowa 31, 62-081 Wysogotowo." />
+  <meta name="theme-color" content="#0a0e1a" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Główna nawigacja">
+        <a href="index.html" class="brand" aria-label="JustWin — strona główna"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 3h3v9a3 3 0 0 1-3 3H4" stroke="#04130d" stroke-width="2.4" stroke-linecap="round"/><path d="M11 3l2.5 11L16 3M16 3l2.5 11L21 3" stroke="#04130d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Just<b>Win</b></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="funkcje.html">Funkcje</a></li>
+          <li><a href="dla-kogo.html">Dla kogo</a></li>
+          <li><a href="cennik.html">Cennik</a></li>
+          <li><a href="kontakt.html" class="active">Kontakt</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="kontakt.html" class="btn btn-ghost">Zaloguj się</a>
+          <a href="#form" class="btn btn-primary">Umów demo</a>
+          <button class="nav-toggle" aria-label="Otwórz menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        </div>
+      </nav>
+    </div>
+    <div class="mobile-menu">
+      <a href="index.html">Start</a><a href="funkcje.html">Funkcje</a><a href="dla-kogo.html">Dla kogo</a><a href="cennik.html">Cennik</a><a href="kontakt.html">Kontakt</a>
+      <a href="#form" class="btn btn-primary">Umów demo</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow reveal">Kontakt</span>
+        <h1 class="reveal" data-delay="1">Porozmawiajmy o <span class="gradient-text">Twoim klubie</span></h1>
+        <p class="reveal" data-delay="2">Zostaw wiadomość lub umów bezpłatne demo. Pokażemy, jak JustWin może uprościć zarządzanie Twoją organizacją sportową.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="split" style="align-items:flex-start">
+          <div class="split-copy reveal" id="form">
+            <div class="card" style="padding:32px">
+              <h3 style="font-size:1.4rem;margin-bottom:6px">Umów demo</h3>
+              <p style="color:var(--text-muted);margin-bottom:24px">Wypełnij formularz — odezwiemy się w ciągu jednego dnia roboczego.</p>
+              <form data-demo-form novalidate>
+                <div class="form-grid">
+                  <div class="field"><label for="name">Imię i nazwisko</label><input id="name" name="name" type="text" required placeholder="Jan Kowalski" /></div>
+                  <div class="field"><label for="org">Klub / organizacja</label><input id="org" name="org" type="text" placeholder="Akademia Pro" /></div>
+                  <div class="field"><label for="email">E-mail</label><input id="email" name="email" type="email" required placeholder="jan@klub.pl" /></div>
+                  <div class="field"><label for="phone">Telefon</label><input id="phone" name="phone" type="tel" placeholder="+48 600 000 000" /></div>
+                  <div class="field full"><label for="role">Jestem</label>
+                    <select id="role" name="role">
+                      <option>Trenerem / instruktorem</option>
+                      <option>Przedstawicielem klubu / akademii</option>
+                      <option>Przedstawicielem kadry / związku</option>
+                      <option>Skautem / menedżerem</option>
+                      <option>Zawodnikiem</option>
+                    </select>
+                  </div>
+                  <div class="field full"><label for="msg">Wiadomość</label><textarea id="msg" name="msg" placeholder="Napisz, czego potrzebuje Twój klub..."></textarea></div>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:14px;margin-top:18px">
+                  <div class="form-success"><svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Dziękujemy! Wiadomość została wysłana — odezwiemy się wkrótce.</div>
+                  <button type="submit" class="btn btn-primary btn-lg">Wyślij zgłoszenie</button>
+                  <p class="form-note">Wysyłając formularz akceptujesz przetwarzanie danych w celu kontaktu. To wersja demonstracyjna — zgłoszenia nie są zapisywane.</p>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="split-visual reveal" data-delay="1" style="background:transparent;border:none;box-shadow:none">
+            <div style="display:flex;flex-direction:column;gap:16px">
+              <div class="info-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M4 6l8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="5" width="18" height="14" rx="3" stroke="currentColor" stroke-width="1.8"/></svg></span><div><h4>E-mail</h4><a href="mailto:kontakt@justwin.pl">kontakt@justwin.pl</a></div></div>
+              <div class="info-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-6.3-7-11a7 7 0 0 1 14 0c0 4.7-7 11-7 11z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.8"/></svg></span><div><h4>Adres</h4><p>JustWin Sp. z o.o.<br />ul. Wierzbowa 31, 62-081 Wysogotowo</p></div></div>
+              <div class="info-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h4>Godziny pracy</h4><p>Pon.–Pt. 9:00–17:00</p></div></div>
+              <div class="info-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V6a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v9z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><div><h4>Wsparcie klientów</h4><p>Pomoc we wdrożeniu i bieżącym korzystaniu z platformy.</p></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="index.html" class="brand"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 3h3v9a3 3 0 0 1-3 3H4" stroke="#04130d" stroke-width="2.4" stroke-linecap="round"/><path d="M11 3l2.5 11L16 3M16 3l2.5 11L21 3" stroke="#04130d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Just<b>Win</b></a>
+          <p>Elastyczna platforma do zarządzania klubem i akademią sportową. Treningi, zawodnicy, komunikacja, płatności i analityka — w jednej aplikacji.</p>
+        </div>
+        <div class="footer-col"><h4>Produkt</h4><a href="funkcje.html">Funkcje</a><a href="dla-kogo.html">Dla kogo</a><a href="cennik.html">Cennik</a><a href="kontakt.html">Demo</a></div>
+        <div class="footer-col"><h4>Firma</h4><a href="dla-kogo.html">O platformie</a><a href="kontakt.html">Kontakt</a><a href="kontakt.html">Wsparcie</a></div>
+        <div class="footer-col"><h4>Kontakt</h4><a href="mailto:kontakt@justwin.pl">kontakt@justwin.pl</a><a href="#">ul. Wierzbowa 31</a><a href="#">62-081 Wysogotowo</a></div>
+      </div>
+      <div class="footer-bottom"><span>© <span data-year>2026</span> JustWin Sp. z o.o. Wszelkie prawa zastrzeżone.</span><span><a href="#">Polityka prywatności</a> · <a href="#">Regulamin</a></span></div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
